@@ -53,9 +53,9 @@ document.querySelector("body").addEventListener("click", (e) => {
     if (e.target.tagName != "BUTTON") {
         click = !click;
     if (click) {
-        document.querySelector(".mode").textContent = "Mode: Coloring";
+        document.querySelector(".mode").textContent = "Mode: Van Gogh";
     } else {
-        document.querySelector(".mode").textContent = "Mode: Not Coloring";
+        document.querySelector(".mode").textContent = "Mode: Not Van Gogh";
     }
     }
 })

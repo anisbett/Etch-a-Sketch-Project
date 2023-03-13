@@ -15,6 +15,37 @@
 .buttons {
     display: flex;
     justify-content: center;
+    gap: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.black {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+.eraser {
+    background-color: palevioletred;
+    color: white;
+    border-color: palevioletred;
+}
+.random {
+    background-color: lightskyblue;
+    color: greenyellow;
+    border-color: lightskyblue;
+}
+.reset {
+    background-color: orangered;
+    color: yellow;
+    border-color: orangered;
+}
+.set-size {
+    background-color: lightblue;
+    color: black;
+    border-color: lightblue;
+}
+.title {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+

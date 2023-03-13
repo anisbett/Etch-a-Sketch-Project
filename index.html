@@ -10,19 +10,19 @@
 <body>
     <div id="flex-container">
         <div class="title">Sketch Pad</div>
-        <div class="mode">Mode: Coloring</div>
+        <div class="mode">Mode: Van Gogh</div>
         <div class="content">
             <div class="board"></div>
             <div class="buttons">
-                <button onclick="changeColor('black')">Black</button>
-                <button onclick="changeColor('white')">Eraser</button>
-                <button onclick="changeColor('random')">Random</button>
-                <button onclick="resetBoard()">Reset</button>
+                <button class="black" onclick="changeColor('black')">Black</button>
+                <button class="eraser" onclick="changeColor('white')">Eraser</button>
+                <button class="random" onclick="changeColor('random')">Random</button>
+                <button class="reset" onclick="resetBoard()">Reset</button>
             </div>
         </div>
         <div>
             <input type="text" placeholder="Size of Board" value="16" onchange="changeSize(this.value)">
-            <button>Set size</button>
+            <button class="set-size">Set size</button>
         </div>
     </div>
 </body>
