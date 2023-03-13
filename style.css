@@ -47,5 +47,11 @@
 .title {
     margin-top: 15px;
     margin-bottom: 10px;
+    font-size: 20px;
 }
-
+body {
+    background-color: burlywood;
+}
+img {
+    border-radius: 10%;
+}
