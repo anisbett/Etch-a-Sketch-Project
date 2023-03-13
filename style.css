@@ -1,19 +1,27 @@
-:root {
+/* :root {
     --grid-cols: 16;
     --grid-rows: 16;
 }
 
 #container {
     display: grid;
-    grid-gap: 0px;
     grid-template-rows: repeat(var(--grid-rows), 1fr);
     grid-template-columns: repeat(var(--grid-cols), 1fr);
+    width: 80%;
+    padding-bottom: 80%;  Maintain a 1:1 aspect ratio 
+    position: relative;  Needed to position the grid items 
 }
 
 .grid-item {
-    padding: 1em;
-    border: 1px solid #ddd;
+    padding: 0px;
+    border: none;
     text-align: center;
-    width: calc(100% / var(--grid-cols));
-    height: calc(100% / var(--grid-rows));
+    width: 100%;
+    height: 100%;
+} */
+
+.board{
+    width: 500px;
+    height: 500px;
+    display: grid;
 }
